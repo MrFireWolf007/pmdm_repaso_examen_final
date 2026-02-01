@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: Text("Home")),
 
-      drawer: Drawer(), // Con esto añadimos un Drawer vacío (importante necesita un AppBar)
+      drawer: Drawer(), //Con esto añadimos un Drawer vacío (importante necesita un AppBar)
 
       body: Center(
         child: Column(
