@@ -19,7 +19,12 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(backgroundColor: Theme.of(context).colorScheme.inversePrimary, title: Text("Home")),
+      appBar: AppBar(
+          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          title: Text("Home")),
+
+      drawer: Drawer(), // Con esto añadimos un Drawer vacío (importante necesita un AppBar)
+
       body: Center(
         child: Column(
           mainAxisAlignment: .center,
